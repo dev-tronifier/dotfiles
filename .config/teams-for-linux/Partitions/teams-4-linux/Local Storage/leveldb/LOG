@@ -1,0 +1,48 @@
+2021/08/16-16:27:00.992 36bb Reusing MANIFEST /home/tronifier/.config/teams-for-linux/Partitions/teams-4-linux/Local Storage/leveldb/MANIFEST-000001
+2021/08/16-16:27:00.992 36bb Recovering log #8
+2021/08/16-16:27:00.992 36bb Reusing old log /home/tronifier/.config/teams-for-linux/Partitions/teams-4-linux/Local Storage/leveldb/000008.log 
+2021/08/16-16:27:41.940 372d Level-0 table #12: started
+2021/08/16-16:27:41.942 372d Level-0 table #12: 105829 bytes OK
+2021/08/16-16:27:41.944 372d Delete type=0 #8
+2021/08/16-16:27:52.973 36b8 Level-0 table #14: started
+2021/08/16-16:27:52.977 36b8 Level-0 table #14: 310457 bytes OK
+2021/08/16-16:27:52.978 36b8 Delete type=0 #11
+2021/08/16-16:28:06.540 36b8 Level-0 table #16: started
+2021/08/16-16:28:06.548 36b8 Level-0 table #16: 295675 bytes OK
+2021/08/16-16:28:06.550 36b8 Delete type=0 #13
+2021/08/16-16:28:06.550 36b8 Compacting 4@0 + 1@1 files
+2021/08/16-16:28:06.559 36b8 Generated table #17@0: 138 keys, 784149 bytes
+2021/08/16-16:28:06.559 36b8 Compacted 4@0 + 1@1 files => 784149 bytes
+2021/08/16-16:28:06.561 36b8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/16-16:28:06.561 36b8 Delete type=2 #14
+2021/08/16-16:28:06.561 36b8 Delete type=2 #9
+2021/08/16-16:28:06.561 36b8 Delete type=2 #16
+2021/08/16-16:28:06.561 36b8 Delete type=2 #7
+2021/08/16-16:28:06.561 36b8 Delete type=2 #12
+2021/08/16-16:28:14.467 372e Level-0 table #19: started
+2021/08/16-16:28:14.469 372e Level-0 table #19: 55132 bytes OK
+2021/08/16-16:28:14.471 372e Delete type=0 #15
+2021/08/16-16:29:06.544 36b8 Level-0 table #21: started
+2021/08/16-16:29:06.547 36b8 Level-0 table #21: 255756 bytes OK
+2021/08/16-16:29:06.549 36b8 Delete type=0 #18
+2021/08/16-17:10:06.539 4b59 Level-0 table #23: started
+2021/08/16-17:10:06.541 4b59 Level-0 table #23: 54261 bytes OK
+2021/08/16-17:10:06.542 4b59 Delete type=0 #20
+2021/08/16-19:03:03.174 7768 Level-0 table #25: started
+2021/08/16-19:03:03.180 7768 Level-0 table #25: 434636 bytes OK
+2021/08/16-19:03:03.182 7768 Delete type=0 #22
+2021/08/16-19:03:03.182 7768 Compacting 4@0 + 1@1 files
+2021/08/16-19:03:03.195 7768 Generated table #26@0: 202 keys, 968247 bytes
+2021/08/16-19:03:03.195 7768 Compacted 4@0 + 1@1 files => 968247 bytes
+2021/08/16-19:03:03.197 7768 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/08/16-19:03:03.197 7768 Delete type=2 #21
+2021/08/16-19:03:03.197 7768 Delete type=2 #19
+2021/08/16-19:03:03.197 7768 Delete type=2 #17
+2021/08/16-19:03:03.197 7768 Delete type=2 #23
+2021/08/16-19:03:03.197 7768 Delete type=2 #25
+2021/08/16-19:03:14.053 7516 Level-0 table #28: started
+2021/08/16-19:03:14.060 7516 Level-0 table #28: 113228 bytes OK
+2021/08/16-19:03:14.062 7516 Delete type=0 #24
+2021/08/16-19:43:17.013 86a5 Level-0 table #30: started
+2021/08/16-19:43:17.017 86a5 Level-0 table #30: 44151 bytes OK
+2021/08/16-19:43:17.019 86a5 Delete type=0 #27

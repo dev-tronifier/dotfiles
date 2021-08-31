@@ -1,0 +1,21 @@
+09:36:23 [info] [LOG SESSION] ---------- START ----------
+09:36:23 [info] [PluginFactory] loading plugins
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+09:36:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+09:36:23 [info] [Indexer] indexer source -1303229654 running...
+09:36:23 [info] [Indexer] indexer source -1303229654 finished
+09:36:23 [info] [Indexer] scan completed successfully
+09:36:23 [info] [Indexer] cleanup 1/2
+09:36:23 [info] [Indexer] cleanup 2/2
+09:36:23 [info] [Indexer] optimizing
+09:36:23 [info] [Indexer] done!
+09:36:23 [info] [GaplessTransport] stop

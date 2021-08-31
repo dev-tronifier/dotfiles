@@ -1,0 +1,6 @@
+#!/bin/bash
+while true
+do
+	feh --bg-scale "$(find ~/.wallpapers/ | shuf -n 1)"
+	sleep 120
+done

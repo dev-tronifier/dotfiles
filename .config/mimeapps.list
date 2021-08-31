@@ -1,0 +1,6 @@
+[Default Applications]
+x-scheme-handler/msteams=teams-for-linux.desktop
+application/pdf=okularApplication_mobi.desktop
+
+[Added Associations]
+application/pdf=okularApplication_mobi.desktop;

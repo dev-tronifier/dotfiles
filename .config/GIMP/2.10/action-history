@@ -1,0 +1,11 @@
+# GIMP action-history
+
+(history-item "file-open" 0)
+(history-item "filters-hue-saturation" 0)
+(history-item "filters-brightness-contrast" 0)
+(history-item "filters-color-balance" 0)
+(history-item "filters-saturation" 0)
+(history-item "filters-shadows-highlights" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

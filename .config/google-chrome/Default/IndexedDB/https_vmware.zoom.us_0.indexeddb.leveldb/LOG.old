@@ -1,0 +1,6 @@
+2021/08/26-17:02:13.677 5a4 Creating DB /home/tronifier/.config/google-chrome/Default/IndexedDB/https_vmware.zoom.us_0.indexeddb.leveldb since it was missing.
+2021/08/26-17:02:13.681 5a4 Reusing MANIFEST /home/tronifier/.config/google-chrome/Default/IndexedDB/https_vmware.zoom.us_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/26-17:55:50.286 27b3 Level-0 table #5: started
+2021/08/26-17:55:50.287 27b3 Level-0 table #5: 3746 bytes OK
+2021/08/26-17:55:50.289 27b3 Delete type=0 #3
+2021/08/26-17:55:50.289 27b3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

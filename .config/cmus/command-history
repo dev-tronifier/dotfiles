@@ -1,0 +1,7 @@
+set output_plugin=pulse
+a ~/music
+q
+r
+play-random
+set status-display-program=~/.config/cmus/post-fm
+next

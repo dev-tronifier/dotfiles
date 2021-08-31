@@ -1,0 +1,11 @@
+2021/08/16-16:19:29.251 300e Creating DB /home/tronifier/.config/teams-for-linux/Partitions/teams-4-linux/Local Storage/leveldb since it was missing.
+2021/08/16-16:19:29.254 300e Reusing MANIFEST /home/tronifier/.config/teams-for-linux/Partitions/teams-4-linux/Local Storage/leveldb/MANIFEST-000001
+2021/08/16-16:20:13.052 300e Level-0 table #5: started
+2021/08/16-16:20:13.055 300e Level-0 table #5: 298392 bytes OK
+2021/08/16-16:20:13.057 300e Delete type=0 #3
+2021/08/16-16:21:11.087 300f Level-0 table #7: started
+2021/08/16-16:21:11.090 300f Level-0 table #7: 275899 bytes OK
+2021/08/16-16:21:11.092 300f Delete type=0 #4
+2021/08/16-16:22:11.085 300f Level-0 table #9: started
+2021/08/16-16:22:11.092 300f Level-0 table #9: 131135 bytes OK
+2021/08/16-16:22:11.093 300f Delete type=0 #6

@@ -1,0 +1,7 @@
+2021/08/16-16:27:52.233 36b9 Reusing MANIFEST /home/tronifier/.config/teams-for-linux/Partitions/teams-4-linux/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/16-16:27:52.233 36b9 Recovering log #3
+2021/08/16-16:27:52.233 36b9 Reusing old log /home/tronifier/.config/teams-for-linux/Partitions/teams-4-linux/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000003.log 
+2021/08/16-19:02:54.545 7516 Level-0 table #5: started
+2021/08/16-19:02:54.548 7516 Level-0 table #5: 15973 bytes OK
+2021/08/16-19:02:54.550 7516 Delete type=0 #3
+2021/08/16-19:02:54.551 7516 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
