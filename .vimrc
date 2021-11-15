@@ -1,4 +1,7 @@
 call plug#begin()
+	Plug 'preservim/nerdtree'
+	Plug 'artur-shaik/vim-javacomplete2'
+	Plug 'tibabit/vim-templates'
 	Plug 'romgrk/doom-one.vim'
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'ycm-core/YouCompleteMe'
@@ -22,6 +25,7 @@ let mapleader=" "
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:tmpl_search_paths = ['~/.vim/templates']
 "let g:molokai_original = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
@@ -38,6 +42,8 @@ nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
+nmap <F4> <Plug>(JavaComplete-Imports-AddSmart)
+imap <F4> <Plug>(JavaComplete-Imports-AddSmart)
 " Replaced by jiangmiao/auto-pairs
 "#inoremap " ""<left>
 "#inoremap ' ''<left>
@@ -84,11 +90,29 @@ autocmd filetype cpp nnoremap <F8> :e %:r.in<CR>
 autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++14 %:r.cpp -g -D ANAND_LOCAL -o %:r<CR>
 autocmd filetype cpp nnoremap <F10> :!./%:r < %:r.in<CR>
 autocmd filetype cpp nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
-autocmd filetype cpp nnoremap <C-o> :NERDTree<CR>
+nnoremap <C-o> :NERDTreeToggle<CR>
 
+autocmd filetype java nnoremap <F7> :e %:r.java<CR>
+autocmd filetype java nnoremap <F8> :e %:r.in<CR>
+autocmd filetype java nnoremap <F9> :w <bar> !javac %:r.java<CR>
+autocmd filetype java nnoremap <F10> :!java %:r < %:r.in<CR>
+autocmd filetype java nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
+autocmd filetype java nnoremap <C-o> :NERDTree<CR>
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
 "let g:airline_theme='one'
 
-autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
+let t:is_transparent = 0
+function! Toggle_transparent()
+    if t:is_transparent == 0
+        hi Normal guibg=NONE ctermbg=NONE
+        let t:is_transparent = 1
+    else
+        set background=dark
+        let t:is_tranparent = 0
+    endif
+endfunction
+nnoremap <C-t> : call Toggle_transparent()<CR>
+
 set nu
 augroup numbertoggle
     autocmd!
